@@ -7,3 +7,5 @@ function sayMyName(name){
 }
 
 console.log(sayMyName(name="ts1imothy"))
+
+//Adding some new features here

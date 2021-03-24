@@ -6,7 +6,7 @@ function sayMyName(name){
     return name
 }
 
-console.log(sayMyName(name="rahul"))
+console.log(sayMyName(name="rad"))
 
 //Adding some new features here
 function mongodb(){

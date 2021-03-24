@@ -6,6 +6,6 @@ function sayMyName(name){
     return name
 }
 
-console.log(sayMyName(name="ts1imothy"))
+console.log(sayMyName(name="timothy"))
 
 //Adding some new features here

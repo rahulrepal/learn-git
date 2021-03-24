@@ -13,3 +13,9 @@ function update(){
 
     analysis_data='1234'
 }
+
+function check_database(database){
+if(database=="mssql"){
+    return true
+}
+}

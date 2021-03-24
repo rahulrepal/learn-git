@@ -1,4 +1,4 @@
-//import db
+//import mssql db
 
 analysis_data = null
 

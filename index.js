@@ -9,3 +9,10 @@ function sayMyName(name){
 console.log(sayMyName(name="timothy"))
 
 //Adding some new features here
+function mongodb(){
+    console.log("printing data into mongodb")
+}
+
+function cosmosdb(){
+    console.log("printing data into cosmosdb")
+}

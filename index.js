@@ -50,3 +50,6 @@ function make_tea(){
     console.log("making tea")
 }
 
+function make_coffee(){
+    console.log("making coffee")  
+}

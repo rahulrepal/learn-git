@@ -41,8 +41,12 @@ function switchDatabase(database_name){
     
 }
 
-function update(){
+function updated(){
     console.log("updated")
 }
 switchDatabase("cosmos")
+
+function make_tea(){
+    console.log("making tea")
+}
 

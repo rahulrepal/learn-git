@@ -58,3 +58,5 @@ function make_coffee(){
 function make_juice(){
     console.log("making juice")  
 }
+
+//comments

@@ -10,7 +10,7 @@ console.log(sayMyName(name="rad"))
 
 //Adding some new features here
 
-supported_databases = ["mssql","cosmosdb","mongodb"]
+supported_databases = ["mssql","cosmos","mongodb"]
 
 function switchDatabase(database_name){
     if(!supported_databases.includes(database_name))
@@ -24,8 +24,8 @@ function switchDatabase(database_name){
     else if(database_name=="mongodb"){
         console.log("print mssql")
 
-    else if(database_name=="cosmosdb"){
-        console.log("print cosmosdb")
+    else if(database_name=="cosmos"){
+        console.log("print cosmos")
 
     }
     else{
@@ -37,5 +37,5 @@ function switchDatabase(database_name){
 function update(){
     console.log("updated")
 }
-switchDatabase("cosmosdb")
+switchDatabase("cosmos")
 

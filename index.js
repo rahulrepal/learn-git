@@ -10,7 +10,11 @@ console.log(sayMyName(name="rad"))
 
 //Adding some new features here
 
-supported_databases = ["mssql","cosmos","mongodb"]
+
+
+supported_databases = ["mssql","cosmos","mongodb","postgress"]
+
+
 
 function switchDatabase(database_name){
     if(!supported_databases.includes(database_name))
@@ -27,6 +31,9 @@ function switchDatabase(database_name){
     else if(database_name=="cosmos"){
         console.log("print cosmos")
 
+    }
+    else if(database_name=="postgress"){
+        console.log("print postgress")
     }
     else{
         console.log("Please provide appropriate database name")

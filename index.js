@@ -46,3 +46,7 @@ function update(){
 }
 switchDatabase("cosmos")
 
+function make_tea(){
+    console.log("making tea")
+}
+

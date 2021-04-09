@@ -34,6 +34,8 @@ function switchDatabase(database_name){
     
 }
 
-
+function update(){
+    console.log("updated")
+}
 switchDatabase("cosmosdb")
 

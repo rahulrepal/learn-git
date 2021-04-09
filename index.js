@@ -53,3 +53,8 @@ function make_tea(){
 function make_coffee(){
     console.log("making coffee")  
 }
+
+
+function make_juice(){
+    console.log("making juice")  
+}

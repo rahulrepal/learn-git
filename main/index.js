@@ -54,6 +54,10 @@ function make_coffee(){
     console.log("making coffee")  
 }
 
+function sleepm(){
+    console.log("Added method to sleep")
+}
+
 
 function make_juice(){
     console.log("making juice")  
